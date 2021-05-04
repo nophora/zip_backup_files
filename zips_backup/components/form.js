@@ -15,11 +15,11 @@ class Form extends React.Component  {
         dot3: new Animated.Value(8),
         text:new Animated.Value(1),
 }
-//officialactivate.com
-//40% 75% 350
-    /*if (!this.onMainScreen()) {
-              this.goBack();
-              */
+//officialactivate.comactivate.com
+
+
+
+
 
     login = () => {
 
