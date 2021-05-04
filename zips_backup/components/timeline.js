@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View,Image, Dimensions} from 'react-native';
 
 class Timelin  extends  React.Component{
-  Render() {
+  render() {
     const windowWidth = Dimensions.get('window').width;
     const windowHeight = Dimensions.get('window').height;
     
