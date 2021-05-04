@@ -384,12 +384,12 @@ class Home extends Component{
   render() {
     const windowWidth = Dimensions.get('window').width;
     const windowHeight = Dimensions.get('window').height;
-   /*
-   :
-          <View {...down.panHandlers} style={styles.magicbar1x}></View>
+   
+  
+  
           
           
-          }*/
+        
 
     const edge = this.state.postion.interpolate({
       inputRange:[0,(Dimensions.get('window').height)*4],
@@ -413,9 +413,9 @@ class Home extends Component{
       outputRange: [1,0]
     })
     
-    console.log('height',windowHeight)
+  
 
-    // opacity:opacity
+    
     
   
   return(
